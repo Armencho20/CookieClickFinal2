@@ -164,7 +164,6 @@ public class GUI implements ActionListener {
         updateTimer.start();
     }
 
-
     @Override
     public void actionPerformed(ActionEvent e) {
         game.tickPassive();
