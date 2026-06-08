@@ -163,7 +163,6 @@ public class GUI implements ActionListener {
         updateTimer = new Timer(250, this);
         updateTimer.start();
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         game.tickPassive();
